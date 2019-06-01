@@ -1,0 +1,42 @@
+.default-colors {
+  border: 1px solid red;
+  padding: 10px;
+}
+
+.default-colors:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.default-colors .color {
+  float: left;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 5px;
+  height: 30px;
+  width: 30px;
+}
+
+.default-colors .color2 {
+  float: left;
+  border: 1px solid grey;
+  /* border-radius: 5px; не возможно*/
+  margin: 5px;
+  height: 30px;
+  width: 30px;
+}
+
+.default-colors .color2 button.mat-icon-button {
+  border: 1px solid grey;
+  height: 30px;
+  width: 30px;
+  line-height: 24px;
+}
+
+.mat-icon-button .mat-icon, .mat-icon-button i {
+    line-height: 24px;
+    margin-left: -11px;
+    font-size: 36px;
+    border-radius: 5px;
+}

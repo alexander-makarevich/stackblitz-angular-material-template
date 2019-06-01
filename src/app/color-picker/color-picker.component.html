@@ -1,0 +1,21 @@
+<p>
+color-picker works!
+</p>
+
+<div class="default-colors">
+  <div class="color" *ngFor="let color of defaultColors" [style.background-color]="color"></div>
+</div>
+<div>last</div>
+
+<div class="default-colors">
+  <div class="color2" *ngFor="let color of defaultColors"> 
+    <button mat-icon-button>
+      <mat-icon
+          [style.color]="color"
+          aria-label="Example icon-button with a heart icon">
+        stop
+      </mat-icon>
+  </button>
+  </div>
+</div>
+<div>last</div>
