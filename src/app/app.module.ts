@@ -5,11 +5,10 @@ import { FormsModule } from '@angular/forms';
 
 import { MaterialModule } from './material.module';
 import { AppComponent } from './app.component';
-import { ColorPickerComponent } from './color-picker/color-picker.component';
 
 @NgModule({
   imports:      [ BrowserModule, BrowserAnimationsModule, FormsModule, MaterialModule ],
-  declarations: [ AppComponent, ColorPickerComponent ],
+  declarations: [ AppComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
